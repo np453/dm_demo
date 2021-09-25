@@ -1,0 +1,106 @@
+.nav_wrapper{
+    background: #008174;
+    padding-left: 70px;
+    padding-right: 40px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.nav_text{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 14px/17px var(--unnamed-font-family-calibri);
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.6rem; 
+    font-weight: 400;
+    margin: 0 auto;
+    padding-left: 0.5rem;
+    &:hover{
+        background-color: rgba(255,255,255,0.6);
+    }
+}
+.navbar-toggler-icon{
+    background-image: url("../../assets/hamburger.svg") !important;
+}
+.navbar_container{
+    background-color: #282828 !important;
+}
+.navbar_mydropdown{
+     position: absolute;
+     right: 2rem;
+     top:80%;
+     background:#FFFFFF;
+     padding-top: 0.3rem;
+     border-radius: 5%;
+     transition: all 3000ms ease-in-out;
+  .dropdown_text{
+     font-family: $font-2;
+     color:#666666;
+     padding-left: 1rem;
+     padding-right: 1rem;
+  }
+}
+.navbar_pofile_img{
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  object-fit: cover;
+  background: transparent;
+}
+.navbar_username{
+  font-family: $font-2;
+    color: #666666;
+    font-size: 1.5rem; 
+    font-weight: 400;
+  padding-left: 1rem !important;
+  margin: 0 auto;
+  vertical-align: middle !important;
+
+}
+.navbar-toggler-icon{
+  background-image: url("../../assets/hamburger.svg") !important;
+}
+.navbar-toggler{
+  &:focus{
+      outline:none !important;
+  } 
+}
+
+.nav_link{
+    padding-left: 1.5rem !important;
+    align-items:center !important;
+}
+.dropdown_arrow{
+    width: 20px !important;
+    padding-left: 0.5rem !important;
+}
+.nav_icon{
+    width: 55% !important;
+}
+.nav_img{
+    width: 1rem !important;
+}
+
+.profile-wrapper{
+    margin-left: 1.8rem;
+    padding-top:0.3rem;
+    height: 30px !important;
+    border-left: 0.5px solid rgba(255,255,255,0.3);
+    
+    .profile-container{
+        padding-left: 0.7rem !important;
+        padding-right: 0.7rem !important;
+    }
+    .profile-img{
+        width: 20% !important;
+    }
+    .profile-text{
+        margin: 0 auto;
+        font-size:0.7rem !important;
+        color: #fff !important;
+    }
+    .profile-description{
+        display: inline;
+        float: left;
+        margin-left: 0 auto !important;
+        font-size:0.6rem !important;
+        color: #fff;
+    }
+}

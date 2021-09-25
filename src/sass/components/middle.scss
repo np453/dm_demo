@@ -1,0 +1,93 @@
+.middle-wrapper{
+    width: 89%;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    .m-outer-1{
+        display: flex;
+        flex-direction: column;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+        margin-left:-5px;
+        .m-inner-1{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin:10px;
+            .m-inhert-1{
+                display: flex;
+                flex-direction: column;
+                .m-text-1{
+                    font-size:0.7rem;
+                    font-weight:600;
+                    font-family: $font-6; 
+                }
+                .m-text-2{
+                    font-size:0.6rem;
+                    font-weight:400;
+                    font-family: $font-6; 
+                }
+            }
+            .m-inhert-2{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                border: 1px solid black;
+                padding: 0px 10px 4px 10px;
+                margin: 5px;
+                border-radius: 3px;
+                .m-text-3{
+                    font-size:0.7rem;
+                    font-weight:400;
+                    font-family: $font-6; 
+                    padding-right: 0.5rem;
+                    padding-left: 0.5rem; 
+
+                }
+                .m-arrow{
+                    width:12px;
+                }
+            }
+        }
+        .m-inner-2{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            .m-col-2{
+                width:12% !important;
+            }
+            .m-col-1{
+                width:15% !important;
+            }
+            .m-text-head{
+                font-size:0.6rem;
+                font-weight:bold;
+                font-family: $font-6;
+            }
+        }
+    }
+    .m-outer-2{
+        display: flex;
+        flex-direction: column;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+        margin-left: 10px;
+        padding: 15px;
+    }
+}
+.list-middle-wrapper{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+    height: 35vh;
+    // max-height: 40vh;
+    // align-items: center;
+}
+.middle-graph-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   width: 100% !important;
+
+}

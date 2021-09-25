@@ -1,0 +1,124 @@
+.head1{
+    display: flex;
+    flex-direction: column;
+    width: 29% !important;
+    // padding: 10px;
+    .text1{
+        font-size: 0.7rem;
+        font-weight: 600;
+        font-family: $font-6;
+    }
+    .text2{
+        font-size: 0.6rem;
+        font-weight: 500;
+        font-family: $font-6;
+    }
+    &:hover{
+        &:before {
+            content: "";
+            width: 5%;
+            border-bottom: 3px solid #008179;
+            position: absolute;
+            margin-top: 36px;
+        }
+    }
+}
+.graph-wrapper{
+    // width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.App{
+    // margin-right: 0 auto !important;
+    width: 100%;
+    .m-dropdown{
+        display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: end !important;
+                border: 1px solid black;
+                padding: 4px 10px 6px 10px;
+                border-radius: 3px;
+                margin-top:10px;
+                margin-left: 80%;
+                
+    }
+    .m-text-3{
+        font-size:0.7rem;
+        font-weight:400;
+        font-family: $font-6; 
+        padding-right: 0.5rem;
+        padding-left: 0.5rem; 
+    
+    }
+    .m-arrow{
+        width:12px;
+    }
+}
+.m-text-3{
+    font-size:0.7rem;
+    font-weight:400;
+    font-family: $font-6; 
+    padding-right: 0.5rem;
+    padding-left: 0.5rem; 
+
+}
+.m-arrow{
+    width:12px;
+}
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  #legend li span {
+    width: 36px;
+    height: 12px;
+    display: inline-block;
+    margin: 0 5px 8px 0;
+    vertical-align: -9.4px;
+  }
+  #legend ul {
+    list-style: none;
+    font: 12px Verdana;
+    white-space: nowrap;
+  }
+  .doughnut{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin: 0 auto;
+      width: 43% !important;
+  }
+  .lower{
+      padding-top: 5px;
+      margin-top: 20px;
+      border-top: 1px solid rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    .in-1{
+        img{
+            width: 10px;
+        }
+        .f-text-1{
+            font-size: 0.6rem;
+            font-weight: bold;
+            padding-left: 0.5rem;
+        }
+    }
+    .in-2{
+        border: 1px solid black;
+        border-radius: 3px;
+        padding: 5px;
+        padding-top: 2px;
+        .img-share{
+            width: 15px;
+        }
+        .m-text-3{
+            font-size: 0.6rem;
+            font-weight: bold;
+            font-family: $font-6;
+        }
+    }
+  }
